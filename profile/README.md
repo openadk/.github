@@ -1,4 +1,4 @@
-# 🚀 OpenADK - Open Agent Development Kit
+# 🤖 OpenADK - Open Agent Development Kit
 
 ## Empowering developers with enterprise-grade AI agent workflows
 
