@@ -18,6 +18,12 @@ OpenADK (Open Agent Development Kit) is a toolkit that transforms Claude Code in
 - **🛡️ Built-in Security** - Security reviews integrated into your workflow
 - **🚦 Pre-commit Integration** - Automated code quality checks
 
+### 📋 Prerequisites
+
+- **Claude Code subscription required** - OpenADK enhances Claude Code
+- Git installed on your system  
+- Your project repositories organized in a common parent directory
+
 ### 🌟 Key Features
 
 #### Specialized Agents
@@ -37,11 +43,26 @@ OpenADK (Open Agent Development Kit) is a toolkit that transforms Claude Code in
 
 ### 🚀 Getting Started
 
+1. **Clone OpenADK in your parent directory** (next to your project repositories):
 ```bash
-# Clone OpenADK alongside your project repositories
 git clone https://github.com/openadk/openadk.git
+```
 
-# In Claude Code, simply type:
+Your structure should look like:
+```
+parent-directory/
+├── openadk/         # OpenADK toolkit
+├── your-repo-1/     # Your application repositories
+├── your-repo-2/
+└── .../
+```
+
+2. **Start Claude Code and initialize**:
+```bash
+cd openadk
+claude
+
+# Then simply type:
 start
 
 # OpenADK will automatically discover and manage all your repositories
@@ -59,9 +80,9 @@ Visit our [documentation](https://github.com/openadk/openadk) to learn more abou
 
 OpenADK is an open-source project dedicated to enhancing developer productivity. We welcome contributions from developers worldwide.
 
-- **Discussions**: Share ideas and get help in our [Discussions](https://github.com/openadk/openadk/discussions)
-- **Issues**: Report bugs or request features in [Issues](https://github.com/openadk/openadk/issues)
-- **Contributing**: Check our [Contributing Guide](https://github.com/openadk/openadk/blob/main/CONTRIBUTING.md)
+- **Repository**: Visit our [main repository](https://github.com/openadk/openadk) for code and documentation
+- **Issues**: Report bugs or request features through GitHub Issues
+- **Contributing**: We welcome pull requests and contributions!
 
 ### 🛠️ Built For Developers, By Developers
 
@@ -79,6 +100,6 @@ OpenADK brings enterprise-level development practices to individual developers a
   <strong>Transform your AI coding assistant into a team of specialized experts</strong>
   <br>
   <a href="https://github.com/openadk/openadk">Get Started</a> • 
-  <a href="https://github.com/openadk/openadk/discussions">Community</a> • 
-  <a href="https://github.com/openadk/openadk/blob/main/CONTRIBUTING.md">Contribute</a>
+  <a href="https://github.com/openadk/openadk/issues">Report Issues</a> • 
+  <a href="https://github.com/openadk/openadk">View Repository</a>
 </div>
